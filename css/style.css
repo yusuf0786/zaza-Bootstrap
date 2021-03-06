@@ -507,6 +507,7 @@ main .info-1 h1{
 
     /* clients-section starts */
     .clients-section img{
+        width: 100%;
         margin-bottom: 18px;
     }
 
