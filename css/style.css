@@ -435,10 +435,22 @@ main .info-1 h1{
     }
     /* header */
     #navigation{
+        position: relative;
         display: none;
-        top: 68px;
-        left: -148px;
+        top: 38px;
+        left: 0px;
         z-index: 1;
+    }
+    #navigation ul{
+        background-color: #dbdbdb;
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+    #navigation ul li{
+        width: 100%;
+        font-size: 1.5rem;
     }
     .navbar .navbar-header{
         margin-right: 0;
@@ -462,16 +474,15 @@ main .info-1 h1{
     .navbar-header .navbar-toggle:hover{
         background: none !important;
     }
-    .My-collapse li{
-        width: 58%;
-    }
     .My-collapse .hover-dropdown{
-        width: 298px !important;
-        top: -162% !important;
-        left: 85%;
+        width: 380px !important;
+        height: 100vh !important;
+        top: -115px !important;
+        left: 168px;
+        padding-top: 28px !important;
     }
     #navigation .hover-dropdown li{
-        line-height: 8px;
+        line-height: 16px;
     }
 
     /* another-section starts */
@@ -506,4 +517,8 @@ main .info-1 h1{
     .mobile-center img{
         margin-top: -18px;
     }
+}
+@media only screen and (max-width:546px){
+
+    
 }
