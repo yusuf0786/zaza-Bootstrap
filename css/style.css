@@ -1,0 +1,509 @@
+body
+{
+    scroll-behavior: smooth;
+}
+.container-fluid{
+    padding: 0;
+}
+/* header */
+html{
+    font-size: 15px;
+}
+.navbar{
+    border-radius: 0;
+    position: relative;
+    background-color: #000;
+    border: 0;
+    height: 100px;
+    margin-bottom: 0;
+}
+.navbar-header{
+    float: none;
+}
+.navbar-brand img{
+    width: 15%;
+}
+#navigation{
+    display: block;
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#navigation ul{
+    padding: 3% 25%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 100%;
+}
+#navigation ul li{
+    padding: 3% 0;
+}
+#navigation ul li a{
+    color: #fff;
+    padding: 0;
+    margin: 0 28px;
+    padding-bottom: 4px;
+    border-bottom: 0px solid yellowgreen;
+}
+#navigation ul .myactive{
+    color: yellowgreen;
+    border-bottom: 4px solid yellowgreen;
+}
+#navigation .hover-dropdown{
+    background-color: #fff;
+    position: absolute;
+    top: 58px;
+    z-index: 10;
+    width: 210px;
+    padding: 4px 0;
+    border-radius: 2px;
+    display: none;
+}
+#navigation .hover-dropdown li{
+    list-style-type: none;
+    line-height: 28px;
+}
+#navigation .hover-dropdown li a{
+    color: grey;
+    font-weight: 100;
+}
+#navigation .hover-dropdown li a:hover{
+    color: grey;
+    border: 0;
+    text-decoration: none;
+}
+
+
+/* banner-section starts */
+#carousel{
+    position: relative;
+}
+.carousel-inner .item{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.carousel-inner .item1{
+    background-image: url("../img/bg-1.png");
+}
+.carousel-inner .item2{
+    background-image: url("../img/bg-2.png");
+}
+.carousel-inner .item3{
+    background-image: url("../img/bg-3.png");
+}
+.carousel-inner .item .carousel-caption{
+    position: absolute;
+    top: 200px;
+}
+.carousel-caption h4{
+    color: tomato;
+    font-size: 1.4rem;
+}
+.carousel-caption h1{
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+.mybutton{
+    background: none;
+    color: coral;
+    border: 2px solid coral;
+    font-size: 1rem;
+    padding: 13px 20px;
+}
+.mybutton:hover{
+    background-color: coral;
+    color: #fff;
+}
+.carousel-caption button{
+    margin-top: 28px;
+}
+
+
+/* info-section starts */
+main .info-1 h4{
+    margin: 48px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+main .info-1 h1{
+    font-weight: 600;
+    margin-top: 10px;
+    color: orange;
+}
+.info-1 .row h1, .info-2 .row h1{
+    color: #000;
+    margin-bottom: 38px;
+}
+.info-1 .item00 img, .info-2 .item00 img{
+    width: 100%;
+}
+.info-1 .item00, .info-2 .item00{
+    border: 1px solid #dbdbdb;
+    padding-bottom: 10%;
+}
+.info-1 .item00:hover, .info-2 .item00:hover{
+    border-top: 4px solid orange;
+}
+.info-1 .item00 h2, .info-2 .item00 h2{
+    color: orange;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+.info-1 .item00 p, .info-2 .item00 p{
+    font-size: 1.4rem;
+    line-height: 36px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.info-1 .item00 a, .info-2 .item00 a{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: orange;
+    margin: 18px 0;
+}
+
+
+/* another-section starts */
+.another-section{
+    background-color: #f0f0f0;
+    padding: 100px 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.another-section section{
+    position: relative;
+    text-align: center;
+}
+.another-section section .another-img2{
+    position: absolute;
+    top: 53px;
+    right: 210px;
+}
+.another-section .text{
+    text-align: left;
+    top: 48px;
+}
+.another-section .text h1{
+    color: orange;
+    font-weight: 600;
+}
+.another-section .text p{
+    font-size: 1.3rem;
+    margin: 28px 0;
+}
+.another-section .stats{
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.another-section .text .stats p{
+    margin-top: 0px;
+    font-weight: 100;
+}
+
+
+/* multi-img section */
+.multi-img h1{
+    color: orange;
+    font-weight: 600;
+}
+.img-section{
+    height: 680px;
+    margin: 48px 0;
+}
+.img-section .img{
+    height: 100%;
+    background-size: cover;
+    background-position: top center;
+}
+.img-section .img-50{
+    height: 48%;
+    background-size: cover;
+    background-position: top center;
+}
+.img-section .margin-btm{
+    margin-bottom: 28px;
+}
+.img-section .img1{
+    background-image: url("https://thedigitalmonk.org/zaza/wp-content/uploads/2020/06/1084.jpg");
+}
+.img-section .img2{
+    background-image: url("https://thedigitalmonk.org/zaza/wp-content/uploads/2020/06/1712-1024x683.jpg");
+}
+.img-section .img3{
+    background-image: url("https://thedigitalmonk.org/zaza/wp-content/uploads/2020/06/plumber-400x356.jpg");
+}
+.img-section .img4{
+    background-image: url("https://thedigitalmonk.org/zaza/wp-content/uploads/2020/06/portfolio-4.jpg");
+}
+.multi-img button{
+    border: 1px solid #dbdbdb;
+    font-weight: 600;
+    color: orange;
+    padding: 18px 38px;
+    margin-bottom: 48px;
+}
+
+
+/* two-section starts */
+.two-section{
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+.two-section .left{
+    padding: 100px 2%;
+    padding-left: 6%;
+}
+.two-section .left h1{
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 18px;
+    letter-spacing: 0.5px;
+}
+.two-section .left p{
+    font-size: 1.3rem;
+}
+.two-section .left .margin-btm{
+    margin-bottom: 28px;
+}
+.two-section .left a{
+    font-weight: 600;
+    color: orange;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+}
+.two-section .right img{
+    width: 68%;
+    transform: scale(2.8) translate(128px, 68px);
+}
+
+
+/* info-section starts */
+.info-section{
+    margin: 48px 0;
+}
+.info-section h4{
+    font-weight: 600;
+}
+.info-section h1{
+    margin-top: -5px;
+    margin-bottom: 28px;
+    color: orange;
+    font-weight: 600;
+}
+.testimonial{
+    border: 1px solid #dbdbdb;
+    padding: 8%;
+}
+.testimonial blockquote{
+    font-size: 1.3rem;
+    line-height: 33px;
+}
+.profile{
+    margin-left: 10px;
+}
+.profile .profile-pic{
+    float: left;
+    width: 15%;
+}
+.profile .profile-name{
+    width: 80%;
+    float: left;
+}
+.profile img{
+    width: 100%;
+}
+.profile-name strong{
+    font-size: 1.3rem;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+.profile-name span{
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+
+
+/* clients-section starts */
+.clients-section{
+    padding: 80px 0;
+}
+.clients-section h1{
+    font-weight: 600;
+    color: orange;
+    margin-top: 0;
+    margin-bottom: 38px;
+}
+.clients-section img{
+    color: #000;
+}
+
+
+/* footer */
+.top-footer{
+    border-top: 2px solid #dbdbdb;
+    padding: 50px 0;
+}
+.top-footer img{
+    width: 80%;
+    margin-top: 50px;
+}
+.top-footer h2{
+    font-weight: 600;
+    color: orange;
+}
+.top-footer ul{
+    padding-left: 0;
+}
+.top-footer ul li{
+    list-style-type: none;
+    margin-bottom: 6px;
+}
+.top-footer ul li a{
+    color: grey;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition-duration: 0100ms;
+}
+.top-footer ul li a:hover{
+    padding-left: 4px;
+    color: #000;
+}
+.top-footer p, .top-footer address{
+    font-size: 1.2rem;
+    margin-top: 18px 0;
+}
+.top-footer span{
+    font-weight: 600;
+}
+.top-footer .social span{
+    font-size: 1.8rem;
+    margin-top: 28px;
+    margin-right: 18px;
+    border-radius: 100%;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: 100;
+    color: rgb(243, 183, 73);
+}
+.top-footer .social .s-1{
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.s-1:hover{
+    background-color: blueviolet;
+    color: #fff !important;
+}
+.s-2:hover{
+    background-color: cyan;
+    color: #fff !important;
+}
+.s-3:hover{
+    background-color: brown;
+    color: #fff !important;
+}
+.s-4:hover{
+    background-color: blueviolet;
+    color: #fff !important;
+}
+.bottom-footer{
+    padding: 38px 0;
+    background-color: rgb(243, 183, 73);
+    text-align: center;
+    color: #fff;
+}
+.bottom-footer p{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+
+/* media query */
+@media only screen and (max-width: 767px){
+
+    html{
+        font-size: 12px;
+    }
+    /* header */
+    #navigation{
+        display: none;
+        top: 68px;
+        left: -148px;
+        z-index: 1;
+    }
+    .navbar .navbar-header{
+        margin-right: 0;
+    }
+    .navbar-header .navbar-brand{
+        margin-top: -48px;
+    }
+    .navbar-brand img{
+        width: 28%;
+    }
+    .navbar-header button{
+        position: relative;
+        top: 20px;
+        right: 8px;
+        color: #fff;
+        background: none !important;
+    }
+    .navbar-header .navbar-toggle .icon-bar{
+        background-color: #fff;
+    }
+    .navbar-header .navbar-toggle:hover{
+        background: none !important;
+    }
+    .My-collapse li{
+        width: 58%;
+    }
+    .My-collapse .hover-dropdown{
+        width: 298px !important;
+        top: -162% !important;
+        left: 85%;
+    }
+    #navigation .hover-dropdown li{
+        line-height: 8px;
+    }
+
+    /* another-section starts */
+    .another-section img{
+        width: 100%;
+    }
+    .another-section section .another-img2{
+        width: 50%;
+        top: 15%;
+        right: -0%;
+    }
+
+    /* multi-img section */
+    .img{
+        margin-bottom: 28px;
+    }
+
+    /* two-section starts */
+    .two-section .right{
+        display: none;
+    }
+
+    /* clients-section starts */
+    .clients-section img{
+        margin-bottom: 18px;
+    }
+
+    /* top-footer starts */
+    .top-footer .mobile-center{
+        text-align: center;
+    }
+    .mobile-center img{
+        margin-top: -18px;
+    }
+}
